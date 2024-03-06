@@ -43,7 +43,7 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 plt.show()
 
-# Analyze stay nights in week and weekend (first 20 days)
+# Analyze stay nights in week and weekend (first 10 days)
 stay_nights_in_week = df['stays_in_week_nights'].value_counts()
 stay_nights_in_weekend = df['stays_in_weekend_nights'].value_counts()
 
